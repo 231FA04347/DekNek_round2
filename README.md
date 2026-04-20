@@ -68,7 +68,7 @@ deknek/
 
 2. **Configure environment variables** (`.env`)
    ```
-   MONGO_URI=mongodb+srv://<REDACTED>@cluster0.hucssvr.mongodb.net/?appName=Cluster0
+   MONGO_URI=<your-mongodb-connection-string>
    JWT_SECRET=your_super_secret_jwt_key_change_this_in_production_12345
    PORT=5000
    NODE_ENV=development

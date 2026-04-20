@@ -240,7 +240,7 @@ See DEPLOYMENT.md for step-by-step guides!
 ═══════════════════════════════════════════════════════════════════════
 
 Backend (.env) - Already configured!
-   MONGO_URI=mongodb+srv://chandra03122005_db_user:DbVGMfGyNo0d2KF8@...
+   MONGO_URI=<your-mongodb-connection-string>
    JWT_SECRET=your_super_secret_jwt_key_change_this_in_production_12345
    PORT=5000
    NODE_ENV=development

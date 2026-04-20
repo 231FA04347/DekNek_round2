@@ -48,7 +48,7 @@
 
 ```
 MONGO_URI
-mongodb+srv://<REDACTED>@cluster0.hucssvr.mongodb.net/?appName=Cluster0
+<your-mongodb-connection-string>
 
 JWT_SECRET
 (Generate: node -e "console.log(require('crypto').randomBytes(32).toString('hex'))")

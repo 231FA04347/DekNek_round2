@@ -46,7 +46,7 @@ Go to https://vercel.com/dashboard
 - Import Git Repository: `231FA04347/DekNek_round2`
 - Set Root Directory to: `Backend`
 - Add Environment Variables:
-  - MONGO_URI: `mongodb+srv://<REDACTED>@cluster0.hucssvr.mongodb.net/?appName=Cluster0`
+  - MONGO_URI: `<your-mongodb-connection-string>`
   - JWT_SECRET: (Generate new one)
   - NODE_ENV: `production`
   - PORT: `3001`
@@ -128,8 +128,8 @@ c:\Users\vajin\OneDrive\Desktop\deknek\
 
 **Backend (Vercel):**
 ```
-MONGO_URI=mongodb+srv://<REDACTED>@cluster0.hucssvr.mongodb.net/?appName=Cluster0
-JWT_SECRET=<generate new>
+MONGO_URI=<your-mongodb-connection-string>
+JWT_SECRET=<generate-new-random-secret>
 NODE_ENV=production
 PORT=3001
 ```

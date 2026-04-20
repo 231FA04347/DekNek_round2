@@ -40,7 +40,7 @@ cd Backend
 ### 3B: Update Backend Environment Variables
 Edit `Backend/.env`:
 ```env
-MONGO_URI=mongodb+srv://<REDACTED>@cluster0.hucssvr.mongodb.net/?appName=Cluster0
+MONGO_URI=<your-mongodb-connection-string>
 JWT_SECRET=<run command below to generate>
 NODE_ENV=production
 PORT=3001
@@ -221,7 +221,7 @@ Instead of using CLI, connect GitHub for automatic deployments:
 
 ### Backend Variables
 ```
-MONGO_URI=mongodb+srv://<REDACTED>@cluster0.hucssvr.mongodb.net/?appName=Cluster0
+MONGO_URI=<your-mongodb-connection-string>
 JWT_SECRET=generate_with_crypto.randomBytes
 NODE_ENV=production
 PORT=3001

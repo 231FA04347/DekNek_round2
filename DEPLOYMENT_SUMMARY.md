@@ -113,8 +113,8 @@ git push origin main
 
 ### Backend
 ```
-MONGO_URI=mongodb+srv://<REDACTED>@cluster0.hucssvr.mongodb.net/?appName=Cluster0
-JWT_SECRET=<GENERATE NEW: node -e "console.log(require('crypto').randomBytes(32).toString('hex'))">
+MONGO_URI=<your-mongodb-connection-string>
+JWT_SECRET=<GENERATE-NEW-RANDOM-SECRET: node -e "console.log(require('crypto').randomBytes(32).toString('hex'))">
 NODE_ENV=production
 PORT=3001
 ```

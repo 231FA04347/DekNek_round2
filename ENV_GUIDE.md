@@ -4,7 +4,7 @@
 
 ### Development
 ```env
-MONGO_URI=mongodb+srv://<REDACTED>@cluster0.hucssvr.mongodb.net/?appName=Cluster0
+MONGO_URI=<your-mongodb-connection-string-from-atlas>
 JWT_SECRET=dev_secret_key_change_in_production
 PORT=5000
 NODE_ENV=development

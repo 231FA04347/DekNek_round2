@@ -173,7 +173,7 @@ Test your deployed application:
 
 ### Backend (Vercel)
 ```
-MONGO_URI=mongodb+srv://<REDACTED>@cluster0.hucssvr.mongodb.net/?appName=Cluster0
+MONGO_URI=<your-mongodb-connection-string>
 JWT_SECRET=<generated-random-secret>
 NODE_ENV=production
 PORT=3001
